@@ -1,0 +1,93 @@
+FC_ELECTRO_MAGNET:
+  title: " &r蜂巢"
+  slots:
+      0:
+        name: "&a"
+        material: minecraft:black_stained_glass_pane
+      2:
+        name: "&3提示"
+        lore: 
+        - '&r&a左侧放入模版 右侧输出'
+        material: minecraft:cherry_sign
+      8:
+        name: "&a"
+        material: minecraft:black_stained_glass_pane
+        progressbar: true
+        progressBarItem:
+          material: minecraft:orange_stained_glass_pane
+          glow: true
+FC_PLASTIC_SHEET:
+  title: " &r蜂巢"
+  slots:
+      0:
+        name: "&a"
+        material: minecraft:black_stained_glass_pane
+      2:
+        name: "&3提示"
+        lore: 
+        - '&r&a左侧放入模版 右侧输出'
+        material: minecraft:cherry_sign
+      8:
+        name: "&a"
+        material: minecraft:black_stained_glass_pane
+        progressbar: true
+        progressBarItem:
+          material: minecraft:orange_stained_glass_pane
+          glow: true
+FC_SILICON:
+  title: " &r蜂巢"
+  slots:
+      0:
+        name: "&a"
+        material: minecraft:black_stained_glass_pane
+      2:
+        name: "&3提示"
+        lore: 
+        - '&r&a左侧放入模版 右侧输出'
+        material: minecraft:cherry_sign
+      8:
+        name: "&a"
+        material: minecraft:black_stained_glass_pane
+        progressbar: true
+        progressBarItem:
+          material: minecraft:orange_stained_glass_pane
+          glow: true
+FC_SULFATE:
+  title: " &r蜂巢"
+  slots:
+      0:
+        name: "&a"
+        material: minecraft:black_stained_glass_pane
+      2:
+        name: "&3提示"
+        lore: 
+        - '&r&a左侧放入模版 右侧输出'
+        material: minecraft:cherry_sign
+      8:
+        name: "&a"
+        material: minecraft:black_stained_glass_pane
+        progressbar: true
+        progressBarItem:
+          material: minecraft:orange_stained_glass_pane
+          glow: true    
+FC_超级蜂巢:
+  title: " &r蜂巢"
+  slots:
+      1:
+        name: "&3提示"
+        lore: 
+        - '&r&a左侧放入模版 右侧输出'
+        material: minecraft:cherry_sign
+      8:
+        name: "&a"
+        material: minecraft:black_stained_glass_pane
+        progressbar: true
+        progressBarItem:
+          material: minecraft:orange_stained_glass_pane
+          glow: true 
+      9-10:
+        name: "&3"
+        material: minecraft:black_stained_glass_pane
+      17:
+        name: "&3"
+        material: minecraft:black_stained_glass_pane

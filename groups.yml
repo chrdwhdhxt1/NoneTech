@@ -1,0 +1,30 @@
+FC_G0:
+  type: nested
+  item:
+    name: "{#fb1010}&l粘{#fa222e}&l液{#f9344b}&l先{#f74669}&l蜂{#f65987}&l-{#f56ba4}&l养{#f47dc2}&l蜂{#f28fdf}&l拓{#f1a1fd}&l展"
+    material: minecraft:bee_nest
+FC_G2:
+  type: sub
+  parent: "FC_G0"
+  item:
+    name: "&e基础材料"
+    material: minecraft:honey_bottle
+FC_G1:
+  type: sub
+  parent: "FC_G0"
+  item:
+    name: "&e基础蜂巢拓展"
+    material: minecraft:beehive
+FC_G4:
+  type: sub
+  parent: "FC_G0"
+  item:
+    name: "&e基础机器"
+    material: minecraft:polished_andesite
+    glow: ture
+FC_G3:
+  type: sub
+  parent: "FC_G0"
+  item:
+    name: "&e工具"
+    material: minecraft:honey_block

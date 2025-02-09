@@ -1,0 +1,340 @@
+FC_ELECTRO_MAGNET: 
+  # 所属物品组
+  item_group: "FC_G1"
+  item:
+    name: "&r电磁铁矿化蜂巢"
+    #描述
+    lore:
+    - '&b机器'
+    - '&8⇨ &e⚡&7 2048J  可存储'
+    - '&8⇨ &e⚡&7 1024  J/s'
+    - "&8效率 6x 无需蜜蜂"
+    - "&4需要模版来进行生产！"
+    material: minecraft:bee_nest
+  # 合成方式 在增强工作台中制作
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  #自定义配方
+  recipe:
+    1:
+      #物品种类
+      material_type: slimefun
+      #物品ID
+      material: LARGE_CAPACITOR
+    2:
+      material_type: slimefun
+      material: ELECTRO_MAGNET
+    3:
+      material_type: slimefun
+      material: LARGE_CAPACITOR
+    4:
+      material_type: slimefun
+      material: ELECTRO_MAGNET
+    5:
+      material_type: slimefun
+      material: DYNATECH_MATERIAL_HIVE
+    6:
+      material_type: slimefun
+      material: ELECTRO_MAGNET
+    7:
+      material_type: slimefun
+      material: DYNATECH_MATERIAL_HIVE
+    8:
+      material_type: slimefun
+      material: DYNATECH_MATERIAL_HIVE
+    9:
+      material_type: slimefun
+      material: DYNATECH_MATERIAL_HIVE
+  #可存储电量
+  capacity: 2048
+  templateSlot: 1
+  #输入槽位
+  input: [7]
+  output: [3,4,5,6,7]
+  #耗电量
+  consumption: 1024
+  speed: 1
+  recipes:
+    S_ELECTRO_MAGNET:
+    #时间
+      dc1:
+        seconds: 10
+        output:
+          1:
+            material_type: slimefun
+            material: ELECTRO_MAGNET
+            amount: 1
+FC_PLASTIC_SHEET: 
+  # 所属物品组
+  item_group: "FC_G1"
+  item:
+    name: "&r塑料纸矿化蜂巢"
+    #描述
+    lore:
+    - '&b机器'
+    - '&8⇨ &e⚡&7 2048J  可存储'
+    - '&8⇨ &e⚡&7 1024  J/s'
+    - "&8效率 6x 无需蜜蜂"
+    - "&4需要模版来进行生产！"
+    material: minecraft:bee_nest
+  # 合成方式 在增强工作台中制作
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  #自定义配方
+  recipe:
+    1:
+      #物品种类
+      material_type: slimefun
+      #物品ID
+      material: LARGE_CAPACITOR
+    2:
+      material_type: slimefun
+      material: PLASTIC_SHEET
+    3:
+      material_type: slimefun
+      material: LARGE_CAPACITOR
+    4:
+      material_type: slimefun
+      material: PLASTIC_SHEET
+    5:
+      material_type: slimefun
+      material: DYNATECH_MATERIAL_HIVE
+    6:
+      material_type: slimefun
+      material: PLASTIC_SHEET
+    7:
+      material_type: slimefun
+      material: S_PLASTIC_SHEET
+    8:
+      material_type: slimefun
+      material: PLASTIC_SHEET
+    9:
+      material_type: slimefun
+      material: S_PLASTIC_SHEET
+  #可存储电量
+  capacity: 2048
+  templateSlot: 1
+  #输入槽位
+  input: [7]
+  output: [3,4,5,6,7]
+  #耗电量
+  consumption: 1024
+  speed: 1
+  recipes:
+    S_PLASTIC_SHEET:
+    #时间
+      dc1:
+        seconds: 10
+        output:
+          1:
+            material_type: slimefun
+            material: PLASTIC_SHEET
+            amount: 1
+FC_SILICON:
+  item_group: "FC_G1"
+  item:
+    name: "&r硅矿化蜂巢"
+    lore:
+    - '&b机器'
+    - '&8⇨ &e⚡&7 2048J  可存储'
+    - '&8⇨ &e⚡&7 1024  J/s'
+    - "&8效率 6x 无需蜜蜂"
+    - "&4需要模版来进行生产！"
+    - "&3FC_SILICON"
+    material: minecraft:bee_nest
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: LARGE_CAPACITOR
+    2:
+      material_type: slimefun
+      material: SILICON
+    3:
+      material_type: slimefun
+      material: LARGE_CAPACITOR
+    4:
+      material_type: slimefun
+      material: SILICON
+    5:
+      material_type: slimefun
+      material: DYNATECH_MATERIAL_HIVE
+    6:
+      material_type: slimefun
+      material: SILICON
+    7:
+      material_type: slimefun
+      material: S_SILICON
+    8:
+      material_type: slimefun
+      material: SILICON
+    9:
+      material_type: slimefun
+      material: S_SILICON
+  capacity: 2048
+  templateSlot: 1
+  input: [7]
+  output: [3,4,5,6,7]
+  consumption: 1024
+  speed: 1
+  recipes:
+    S_SILICON:
+      dc1:
+        seconds: 10
+        output:
+          1:
+            material_type: slimefun
+            material: SILICON
+            amount: 1
+FC_SULFATE:
+  item_group: "FC_G1"
+  item:
+    name: "&r硫酸盐矿化蜂巢"
+    lore:
+    - '&b机器'
+    - '&8⇨ &e⚡&7 2048J  可存储'
+    - '&8⇨ &e⚡&7 1024  J/s'
+    - "&8效率 6x 无需蜜蜂"
+    - "&4需要模版来进行生产！"
+    - "&3FC_SULFATE"
+    material: minecraft:bee_nest
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: LARGE_CAPACITOR
+    2:
+      material_type: slimefun
+      material: SULFATE
+    3:
+      material_type: slimefun
+      material: LARGE_CAPACITOR
+    4:
+      material_type: slimefun
+      material: SULFATE
+    5:
+      material_type: slimefun
+      material: DYNATECH_MATERIAL_HIVE
+    6:
+      material_type: slimefun
+      material: SULFATE
+    7:
+      material_type: slimefun
+      material: S_SULFATE
+    8:
+      material_type: slimefun
+      material: SULFATE
+    9:
+      material_type: slimefun
+      material: S_SULFATE
+  capacity: 2048
+  templateSlot: 1
+  input: [7]
+  output: [3,4,5,6,7]
+  consumption: 1024
+  speed: 1
+  recipes:
+    S_SULFATE:
+      dc1:
+        seconds: 10
+        output:
+          1:
+            material_type: slimefun
+            material: SULFATE
+            amount: 1
+            amount: 1
+FC_超级蜂巢:
+  item_group: "FC_G2"
+  item:
+    name: "&r超级蜂巢"
+    lore:
+    - '&b机器'
+    - '&8⇨ &e⚡&7 2048J  可存储'
+    - '&8⇨ &e⚡&7 1024  J/s'
+    - "&8以一定的效率来生产材料 无需蜜蜂"
+    - "&4需要模版来进行生产！"
+    - "&3FC_超级蜂巢"
+    material: minecraft:bee_nest
+    glow: ture
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: DYNATECH_MATERIAL_HIVE
+    2:
+      material_type: slimefun
+      material: DYNATECH_MATERIAL_HIVE
+    3:
+      material_type: slimefun
+      material: DYNATECH_MATERIAL_HIVE
+    4:
+      material_type: slimefun
+      material: DYNATECH_MATERIAL_HIVE
+    5:
+      material_type: slimefun
+      material: FC_ITEM_EX
+    6:
+      material_type: slimefun
+      material: DYNATECH_MATERIAL_HIVE
+    7:
+      material_type: slimefun
+      material: ENERGIZED_CAPACITOR
+    8:
+      material_type: slimefun
+      material: MACHINE_CORE
+    9:
+      material_type: slimefun
+      material: ENERGIZED_CAPACITOR
+  capacity: 2048
+  templateSlot: 0
+  input: [3]
+  output: [2,3,4,5,6,7,11,12,13,14,15,16]
+  consumption: 1024
+  speed: 1
+  recipes:
+    S_SULFATE:
+      dc1:
+        seconds: 1
+        output:
+          1:
+            material_type: slimefun
+            material: SULFATE
+            amount: 5
+    S_SILICON:
+      dc1:
+        seconds: 1
+        output:
+          1:
+            material_type: slimefun
+            material: SILICON
+            amount: 5
+    S_PLASTIC_SHEET:
+      dc1:
+        seconds: 1
+        output:
+          1:
+            material_type: slimefun
+            material: PLASTIC_SHEET
+            amount: 5
+    S_ELECTRO_MAGNET:
+      dc1:
+        seconds: 1
+        output:
+          1:
+            material_type: slimefun
+            material: ELECTRO_MAGNET
+            amount: 5
+    S_REINFORCED_ALLOY_INGOT:
+      dc1:
+        seconds: 1
+        output:
+          1:
+            material_type: slimefun
+            material: REINFORCED_ALLOY_INGOT
+            amount: 5
+    S_REDSTONE_ALLOY:
+      dc1:
+        seconds: 1
+        output:
+          1:
+            material_type: slimefun
+            material: REDSTONE_ALLOY
+            amount: 5

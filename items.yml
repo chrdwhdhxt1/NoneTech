@@ -1,0 +1,117 @@
+FC_ITEM_EX:
+    item_group: "FC_G2"
+    item:
+        name: "&l&eEXCIXIN"
+        material_type: skull_url
+        material: http://textures.minecraft.net/texture/29452ffe6f2b870239a8ad86ea809990738bdafae79a958eca085e906679faba
+        glow: ture
+        lore:
+          - "&3腐竹&#084cfb&l&m可&#5ba0fc&l&m爱&#adf3fd&l&m捏"
+    recipe_type: COMPRESSOR
+    recipe:
+        1:
+            material_type: slimefun
+            material: INFINITE_INGOT
+            amount: 2
+S_ELECTRO_MAGNET:
+    item_group: "FC_G2"
+    item:
+        name: "&a超级电磁铁"
+        material: minecraft:diamond_block
+        glow: ture
+        lore:
+          - "&3电磁铁奇点？ "
+    recipe_type: COMPRESSOR
+    recipe:
+        1:
+            material_type: slimefun
+            material: ELECTRO_MAGNET
+            amount: 64
+S_PLASTIC_SHEET:
+    item_group: "FC_G2"
+    item:
+        name: "&a塑料纸超级模版"
+        material: minecraft:book
+        glow: ture
+        lore:
+          - "&3塑料纸奇点？ "
+    recipe_type: COMPRESSOR
+    recipe:
+        1:
+            material_type: slimefun
+            material: PLASTIC_SHEET
+            amount: 64      
+S_SILICON:
+    item_group: "FC_G2"
+    item:
+        name: "&a硅超级模版"
+        material: minecraft:book
+        glow: ture
+        lore:
+          - "&3被压缩的物品 也许可以用来生产材料 "
+          - "&3S_SILICON"
+    recipe_type: COMPRESSOR
+    recipe:
+        1:
+            material_type: slimefun
+            material: SILICON
+            amount: 64
+S_SULFATE:
+    item_group: "FC_G2"
+    item:
+        name: "&a硫酸盐超级模版"
+        material: minecraft:book
+        glow: ture
+        lore:
+          - "&3被压缩的物品 也许可以用来生产材料 "
+          - "&3S_SULFATE"
+    recipe_type: COMPRESSOR
+    recipe:
+        1:
+            material_type: slimefun
+            material: SULFATE
+            amount: 64
+S_REINFORCED_ALLOY_INGOT:
+    item_group: "FC_G2"
+    item:
+        name: "&a强化合金锭超级模版"
+        material: minecraft:iron_ingot
+        glow: ture
+        lore:
+          - "&3可以在超级蜂巢中作为模版 "
+    recipe_type: COMPRESSOR
+    recipe:
+        1:
+            material_type: slimefun
+            material: REINFORCED_ALLOY_INGOT
+            amount: 64
+        2:
+            material_type: slimefun
+            material: PROGRAMMABLE_ANDROID_2
+            amount: 8
+        3:
+            material_type: slimefun
+            material: MACHINE_PLATE
+            amount: 8
+S_REDSTONE_ALLOY:
+    item_group: "FC_G2"
+    item:
+        name: "&a红石合金锭超级模版"
+        material: minecraft:brick
+        glow: ture
+        lore:
+          - "&3可以在超级蜂巢中作为模版 "
+    recipe_type: COMPRESSOR
+    recipe:
+        1:
+            material_type: slimefun
+            material: REDSTONE_ALLOY
+            amount: 64
+        2:
+            material_type: slimefun
+            material: PROGRAMMABLE_ANDROID_2
+            amount: 8
+        3:
+            material_type: slimefun
+            material: MACHINE_PLATE
+            amount: 8

@@ -1,0 +1,18 @@
+FC_FOOD_EXRT:
+  item_group: "FC_G3"
+  item:
+    name: "&aEX蜂蜜面包"
+    material: minecraft:bread
+    glow: ture
+    lore:
+      - "&#084cfb&l开&#1a5ffb&l袋&#2d71fb&l即&#3f84fc&l食 &#5196fc&l经&#64a9fc&l验&#76bbfc&l等&#88cefd&l级&#9be0fd&l+&#adf3fd&l20"
+  script: "food_exrt"
+  recipe_type: MAGIC_WORKBENCH
+  recipe:
+    1:
+      material: minecraft:honey_bottle
+      amount: 1
+    2:
+      material_type: slimefun
+      material: FC_ITEM_EX
+      amount: 1
