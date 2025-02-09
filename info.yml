@@ -5,4 +5,4 @@ pluginDepends: []
 version: "1.0"
 description: "本附属旨在优化生产线，在一定程度上减少服务器卡顿"
 authors: ["_shilaimu_"]
-repo: ""
+repo: "https://github.com/chrdwhdhxt1/MoreFC"
