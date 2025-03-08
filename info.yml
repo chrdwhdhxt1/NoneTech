@@ -1,8 +1,8 @@
-id: FC_MORE
-name: "更多蜂巢"
+id: NoneTech
+name: "空域科技"
 depends: []
 pluginDepends: []
 version: "1.0"
 description: "本附属旨在优化生产线，在一定程度上减少服务器卡顿"
 authors: ["_shilaimu_"]
-repo: "https://github.com/chrdwhdhxt1/MoreFC"
+repo: "https://github.com/chrdwhdhxt1/NoneTech"

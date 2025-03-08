@@ -242,7 +242,7 @@ FC_SULFATE:
             amount: 1
             amount: 1
 FC_超级蜂巢:
-  item_group: "FC_G2"
+  item_group: "FC_G1"
   item:
     name: "&r超级蜂巢"
     lore:
@@ -285,8 +285,8 @@ FC_超级蜂巢:
       material: ENERGIZED_CAPACITOR
   capacity: 2048
   templateSlot: 0
-  input: [3]
-  output: [2,3,4,5,6,7,11,12,13,14,15,16]
+  input: [16]
+  output: [2,3,4,5,6,7,11,12,13,14,15]
   consumption: 1024
   speed: 1
   recipes:
@@ -297,7 +297,7 @@ FC_超级蜂巢:
           1:
             material_type: slimefun
             material: SULFATE
-            amount: 5
+            amount: 3
     S_SILICON:
       dc1:
         seconds: 1
@@ -313,7 +313,7 @@ FC_超级蜂巢:
           1:
             material_type: slimefun
             material: PLASTIC_SHEET
-            amount: 5
+            amount: 3
     S_ELECTRO_MAGNET:
       dc1:
         seconds: 1
@@ -321,7 +321,7 @@ FC_超级蜂巢:
           1:
             material_type: slimefun
             material: ELECTRO_MAGNET
-            amount: 5
+            amount: 3
     S_REINFORCED_ALLOY_INGOT:
       dc1:
         seconds: 1
@@ -329,7 +329,7 @@ FC_超级蜂巢:
           1:
             material_type: slimefun
             material: REINFORCED_ALLOY_INGOT
-            amount: 5
+            amount: 3
     S_REDSTONE_ALLOY:
       dc1:
         seconds: 1
@@ -337,4 +337,4 @@ FC_超级蜂巢:
           1:
             material_type: slimefun
             material: REDSTONE_ALLOY
-            amount: 5
+            amount: 3

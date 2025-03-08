@@ -16,7 +16,7 @@ FC_ITEM_EX:
 S_ELECTRO_MAGNET:
     item_group: "FC_G2"
     item:
-        name: "&a超级电磁铁"
+        name: "&a电磁铁超级模版"
         material: minecraft:diamond_block
         glow: ture
         lore:
